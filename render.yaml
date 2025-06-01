@@ -2,7 +2,7 @@ services:
   - type: web
     name: inventory-management
     env: node
-    nodeVersion: 18
+    nodeVersion: 16
     buildCommand: cd server && npm install && npm run build
     startCommand: cd server && npm start
     envVars:
